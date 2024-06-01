@@ -8,5 +8,5 @@ export const personalData = {
   address: 'Pune',
   github: 'https://github.com/ipscoder',
   linkedIn: 'https://www.linkedin.com/in/pravin-sawant-234361218/',
-  resume: "https://drive.google.com/file/d/1eyutpKFFhJ9X-qpQGKhUNnVRkB5Wer00/view?usp=sharing"
+  resume: "https://drive.google.com/file/d/1z5tm5DM6OrtYMQteclcOn4vGM2sakZ_D/view?usp=sharing"
 }
