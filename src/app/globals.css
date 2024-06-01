@@ -1,33 +1,34 @@
 @tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+ @tailwind components;
+ @tailwind utilities;
+ :root {
+	 --foreground-rgb: #d3d8e8;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+ @media (prefers-color-scheme: dark) {
+	 :root {
+		 --foreground-rgb: 255, 255, 255;
+	}
 }
-
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+ * {
+	 scroll-behavior: smooth;
 }
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+ body {
+	 color: #000;
+	 background-color: #0d1224;
 }
+ #sticky-card-1 {
+	 --index: 1;
+}
+ #sticky-card-2 {
+	 --index: 2;
+}
+ #sticky-card-3 {
+	 --index: 3;
+}
+ #sticky-card-4 {
+	 --index: 4;
+}
+ .sticky-card {
+	 top: calc(var(--index) * 4rem);
+}
+ 
