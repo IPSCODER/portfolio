@@ -13,7 +13,7 @@ title: 'Pravin Sawant - Software Developer',
   authors: [{ name: 'pravin sawant' }, { name: 'pravin sawant', url: 'https://www.pravinswant.in' }],
   creator: 'pravin sawant',
   publisher: 'pravin sawant',
-  keywords: ['Next.js', 'React', 'JavaScript',"pravin sawant","front end developer","full stack developer","react developer","web developer"],
+  keywords: ['Next.js', 'React', 'JavaScript',"pravin sawant","front end developer","full stack developer","react developer","web developer","html master","css master"],
   referrer: 'origin-when-cross-origin',
   alternates: {
     canonical: '/',
